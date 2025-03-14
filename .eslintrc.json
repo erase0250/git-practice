@@ -1,0 +1,41 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "semi": ["error", "always"],
+    "space-in-parens": ["error", "never"],
+    "curly": ["error", "all"],
+    "indent": ["error", 2],
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "no-mixed-operators": ["error", {
+      "groups": [
+        ["+", "-", "*", "/", "%"],
+        ["&", "|", "^", "~", "<<", ">>", ">>>"],
+        ["&&", "||"]
+      ],
+      "allowSamePrecedence": false
+    }],
+    "no-dupe-keys": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "camelcase": ["error", { "properties": "always" }],
+    "no-unused-vars": ["error", { "args": "none", "vars": "all", "varsIgnorePattern": "^_" }],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "consistent-return": "error",
+    "prefer-template": "error",
+    "no-new-object": "error",
+    "space-infix-ops": "error",
+    "no-extra-semi": "error",
+    "no-multi-spaces": "error",
+    "max-lines": ["error", { "max": 300, "skipComments": true, "skipBlankLines": true }],
+    "eqeqeq": ["error", "always"],
+    "no-eval": "error",
+    "class-methods-use-this": ["error", { "exceptMethods": ["render"] }],
+    "prefer-arrow-callback": "error",
+    "default-case": "error",
+    "react/jsx-pascal-case": "error",
+    "consistent-this": ["error", "self"],
+    "no-alert": "error",
+    "require-yield": "error",
+    "no-with": "error"
+  }
+}
